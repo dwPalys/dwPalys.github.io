@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Devin W. Palys</h1>
-  <p>Welcome to my website! This is experimental for working with GitHub and GitHub Pages...<br>
- More to come soon...</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
-</html>
+<head>
+  <title>CSS CheatSheet</title>
+  <link href="./resources/styles.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Mono&family=VT323&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body> 
+    <div class="title">
+        <h1>CSS Selectors CheatSheet</h1>
+    </div>
+    <table class="center">
+        <tr>
+          <th>Selector</th>
+          <th>Example</th> 
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>.class</td>
+          <td>.cinematographer</td> 
+          <td>selects all elements with class = "cinematographer"</td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>*</td> 
+          <td>selects ALL elements</td>
+        </tr>
+        <tr>
+            <td>#id</td>
+            <td>#lastname</td> 
+            <td>selects all elements with id = "lastname"</td>
+          </tr>
+          <tr>
+            <td>element</td>
+            <td>p</td> 
+            <td>selects all elements <span>&lt;p&gt;</span></td>
+          </tr>
+          <tr>
+            <td>element.class</td>
+            <td>p.cinematographer</td> 
+            <td>selects all elements <span>&lt;p&gt;</span> with class = "cinematographer"</td>
+          </tr>
+          <tr>
+            <td>elementA elementB</td>
+            <td>div p</td> 
+            <td>selects all elements <span>&lt;p&gt;</span> inside <span>&lt;div&gt;</span> </td>
+          </tr>
+      </table>

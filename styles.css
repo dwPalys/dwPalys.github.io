@@ -1,0 +1,57 @@
+.title {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(10, 227, 10);
+    font-family: "VT323", "Roboto Mono", monospace;
+    font-size: x-large;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.center {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 30px;
+}
+
+th {
+    font-weight: bold;
+}
+
+table, th, td {
+    border-style: solid;
+    border-color: rgb(28, 183, 46);
+    border-collapse: collapse;
+}
+
+th, td {
+    color: rgb(10, 227, 10);
+    background-color: rgba(0, 0, 0, 0.808);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+body {
+    background-image: url(/Users/devinpalys/VS_Projects/CheatSheet/Resources/images/matrix.jpg);
+}
+
+tr :hover {
+    background-color: rgba(43, 171, 226, 0.738);
+}
+
+span {
+    font-family: monospace;
+    font-weight: bold;
+    color: darkmagenta;
+    font-size: larger;
+
+}
